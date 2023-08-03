@@ -19,11 +19,11 @@ Save the Script: Save the enhanced Nessus XML scan report parsing script to a Py
 Make the Script Executable: To run the script easily from the command-line, make the Python script executable:
 
 
-chmod +x nessus_report_parser.py
+chmod +x Nessus_Report_Parser.py
 Run the Script: Now, you can run the script and provide the path to your Nessus XML scan report as a command-line argument. For example:
 
 
-./nessus_report_parser.py path_to_nessus_scan_report.xml
+./Nessus_Report_Parser.py path_to_nessus_scan_report.xml
 The script will parse the report and display vulnerability information for each host.
 
 Optional: Install Nessus: If you don't have Nessus installed and want to perform vulnerability scans to get the Nessus XML report, you can install Nessus on your Kali Linux system. Follow the official documentation from Tenable to install Nessus: https://docs.tenable.com/nessus/Content/InstallNessus.htm
